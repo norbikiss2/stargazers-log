@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
- <meta charset="utf-8">
- <title>Stargazers log</title>
- <link rel="stylesheet" href="style.css">
- </head>
- <body>
- <h1>Stargazers log</h1>
- <p>A log of the repositories I've starred.</p>
- <ul id="starred"></ul>
- <script src="script.js"></script>
- </body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Stargazers log</h1>
+      <p>A log of the repositories I've starred.</p>
+
+      <ul
+        id="starred"
+        aria-live="polite"
+        aria-busy="true"
+        aria-label="Starred repositories"
+      ></ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
